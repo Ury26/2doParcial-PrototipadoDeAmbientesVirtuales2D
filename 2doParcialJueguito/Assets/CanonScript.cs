@@ -18,7 +18,9 @@ public class Canon : MonoBehaviour
     private int tirosRestantes;
     private int puntaje = 0;
 
-    public int puntajeVictoria = 50; 
+    public int puntajeVictoria = 50;
+
+    private Controles InputActions;
     void Start()
     {
         textoFuerza.text = "Fuerza aplicada: " + fuerzaBala;
@@ -84,5 +86,10 @@ public class Canon : MonoBehaviour
     void ReiniciarJuego()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void Awake()
+    {
+        InputActions = new Controles();
     }
 }

@@ -1,0 +1,114 @@
+{
+    "name": "Controles",
+    "maps": [
+        {
+            "name": "PajarosVSCerdos",
+            "id": "06a86d00-9616-4bfd-974c-15a7651c8146",
+            "actions": [
+                {
+                    "name": "Presionado",
+                    "type": "Button",
+                    "id": "fbbbe6c8-16d6-4510-bb16-fa637726e069",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CanonArriba",
+                    "type": "Value",
+                    "id": "126a2aa9-619c-496d-8055-96c5eaa46204",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CanonAbajo",
+                    "type": "Value",
+                    "id": "c29e30bb-9ba4-471a-a150-e53ef5e8522d",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MasFuerza",
+                    "type": "Value",
+                    "id": "4673128c-33ca-4785-95e2-64ddcedf8acb",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MenosFuerza",
+                    "type": "Value",
+                    "id": "bbd7c643-053e-4f9c-af93-a2ae46f7478c",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c570123d-edc4-43ad-ada8-cd64ca531876",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Presionado",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "380c684f-347c-4fea-9485-fcacf1de5922",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CanonArriba",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e3fe4e17-9158-4f32-a237-0d46a04bd00a",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CanonAbajo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a94c0e4a-39f2-4af6-995a-1ce8d671d619",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MasFuerza",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7238be67-ce30-4d9f-8d68-71c0f505fb3f",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenosFuerza",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
